@@ -1,0 +1,18 @@
+{
+  "provider": "cloudflare",
+  "zoneName": "contactofen.site",
+  "recordName": "al",
+  "interfaceName": "enp6s18",
+  "ttl": 3600,
+  "selectIndex": 0,
+  "workDir": "",
+  "ipApiUrls": [
+    "https://ipv6.ifconfig.me",
+    "https://ipv6.icanhazip.com"
+  ],
+  "cloudflare": {
+    "apiToken": "ou3ZYtKF0JR9bK1TDY6S9nsCadZ1fEd7Ci3bUUg5",
+    "zoneId": "0b7a20a170693acc0ac8b2cfc45d2181",
+    "proxied": false
+  }
+}
