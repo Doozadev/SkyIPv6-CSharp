@@ -1,18 +1,20 @@
 {
   "provider": "cloudflare",
-  "zoneName": "contactofen.site",
-  "recordName": "al",
-  "interfaceName": "enp6s18",
-  "ttl": 3600,
+  "zoneName": "example.com",
+  "recordName": "test1",
+  "interfaceName": "ens18",
+  "ttl": 300,
   "selectIndex": 0,
-  "workDir": "",
+  "workDir": "/opt/cfddns",
   "ipApiUrls": [
     "https://ipv6.ifconfig.me",
     "https://ipv6.icanhazip.com"
   ],
   "cloudflare": {
-    "apiToken": "ou3ZYtKF0JR9bK1TDY6S9nsCadZ1fEd7Ci3bUUg5",
-    "zoneId": "0b7a20a170693acc0ac8b2cfc45d2181",
+    "apiToken": "CLOUDFLAREAPTTOKEN",
+    "zoneId": "CLOUDLFAREZONEID",
     "proxied": false
-  }
+  },
+  "proxy": "http://192.168.10.245:9801",
+  "httpTimeoutSeconds": 20
 }
